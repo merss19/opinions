@@ -1,0 +1,29 @@
+.button {
+  padding: 6px 12px;
+  color: #fff;
+  line-height: 1.5;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    background: #ff4d4fab;
+    border-color: #ff4d4fab;
+  }
+
+  &.simple {
+    margin-top:20px;
+    color: #8f8f8fe8;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+
+    &:hover {
+      color: #ddd;
+    }
+  }
+}
