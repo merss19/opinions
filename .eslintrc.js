@@ -48,5 +48,6 @@ module.exports = {
 		'import/no-named-as-default': 0,
     'no-bitwise': [2, { allow: ["~"] }],
     "react/button-has-type": 0,
+    "linebreak-style": 0
   },
 };
